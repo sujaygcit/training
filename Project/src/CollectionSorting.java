@@ -67,7 +67,6 @@ public class CollectionSorting {
 			}
 		};
 		
-		
 		List<Map.Entry<String, Student>> studentList = new ArrayList<Map.Entry<String, Student>>();
 		studentList.addAll(map.entrySet());
 		Collections.sort(studentList, byMapVal);
